@@ -16,7 +16,6 @@ for i in range(min, max+1):
                break
 
      if not good:
-          #print(i, " doesn't only increase")
           continue
 
      # Test for increase numbers
@@ -26,13 +25,12 @@ for i in range(min, max+1):
                break
 
      if not good:
-          #print(i, " doesn't only increase")
           continue
 
      numbers.append(numStr)
      count += 1
 
-print("Total passwords: ", count)
+print("Total passwords: ", count) # Part 1
 
 count = 0
 for i in numbers:
@@ -44,4 +42,4 @@ for i in numbers:
                count += 1
                break
 
-print("Reduced passwords: ", count)
+print("Reduced passwords: ", count)  # Part 2
