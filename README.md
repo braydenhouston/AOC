@@ -1,2 +1,2 @@
-# AOC2020
-Advent of Code 2020
+# Adevent of Code Collection
+My attempts at the Advent of Code challenges.
