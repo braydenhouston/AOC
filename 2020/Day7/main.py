@@ -8,6 +8,7 @@ def can_contain(parent, child):
 
     return any(can_contain(v, child) for c, v in rules[parent])
 
+
 def contains(parent):
     children = 0
     for num, child in rules[parent]:
