@@ -1,4 +1,4 @@
-# Day 10
+# Day 10 Adapter Array
 
 file = open('input.txt')
 adapters = file.read().split("\n")
