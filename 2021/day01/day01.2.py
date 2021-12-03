@@ -11,4 +11,4 @@ for i in range(1, len(totals)):
     if totals[i] > totals[i - 1]:
         largerCount += 1
 
-print("Part 1: ", largerCount)
+print("Part 2: ", largerCount)
