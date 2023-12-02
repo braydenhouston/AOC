@@ -14,6 +14,3 @@ for l in ll:
     sum += int(n[0] + n[-1])
     
 print("Sum {}".format(sum))
-
-# print(f"Part 1: {cals[-1]}")
-# print(f"Part 2: {sum(cals[-3::])}")
