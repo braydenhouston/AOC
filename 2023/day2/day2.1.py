@@ -5,7 +5,7 @@ power_list = []
 
 with open(os.path.join(os.path.dirname(__file__),'input.txt')) as input:
     while line := input.readline():
-        game   = line.split(":")[0].split(" ")[1].strip()
+        game  = line.split(":")[0].split(" ")[1].strip()
         rounds = line.split(":")[1].strip().split(";")
 
         limits = {
